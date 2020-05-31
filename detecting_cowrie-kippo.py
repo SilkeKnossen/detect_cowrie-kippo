@@ -147,7 +147,7 @@ DEF_HOSTKEYS = {
     "SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3" : ["RSA", "ECDSA", "EdDSA / ED25519"],
 }
 
-RESPONSES = FalseFalse
+RESPONSES = False
 
 def connect(host, port):
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
